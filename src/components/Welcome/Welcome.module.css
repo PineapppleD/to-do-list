@@ -1,0 +1,55 @@
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcomeText {
+    font-size: 36px;
+    font-weight: 600;
+    margin-right: 100px;
+}
+
+.friendslist {
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+}
+
+.friendslist > li,
+.remindfriends > div {
+    display: flex;
+    align-items: flex-end;
+}
+
+.remindfriends {
+    position: relative;
+}
+
+.remindText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 4;
+}
+
+.remind {
+    opacity: 0.7;
+}
+
+.inviteButton {
+    width: 98px;
+    height: 37px;
+    border: #FF6767 2px solid;
+    color: #FF6767;
+    background: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-left: 20px;
+    cursor: pointer;
+}

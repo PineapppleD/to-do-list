@@ -1,0 +1,12 @@
+.dashboard {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    width: 66.53%;
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
