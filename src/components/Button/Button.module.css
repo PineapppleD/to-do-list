@@ -1,0 +1,22 @@
+.button {
+    background-color: #FF6767;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    max-width: 131px;
+    cursor: pointer;
+}
+
+.textButton {
+    padding: 20px 30px;
+}
+
+.iconButton {
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

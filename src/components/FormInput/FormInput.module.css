@@ -1,0 +1,21 @@
+.inputContainer {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 16px 18px;
+    border: 1px #000 solid;
+    border-radius: 8px;
+    max-width: 559px;
+}
+
+.formInput {
+    border: none;
+    font-size: 1.125rem;
+    max-width: 559px;
+    width: 559px;
+}
+
+.formInput:focus {
+    border: none;
+    outline: none;
+}

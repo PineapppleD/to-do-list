@@ -1,0 +1,47 @@
+.login {
+    background-image: url('./logbg.svg');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF6767;
+}
+
+.loginformcontainer {
+    max-width: 1252px;
+    max-height: 810px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-height: 560px;
+    margin-left: 80px;
+}
+
+.loginimagecontainer {
+    align-self: flex-end;
+}
+
+.loginalts {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logos {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.loginimagecontainer {
+    align-self: end;
+}
