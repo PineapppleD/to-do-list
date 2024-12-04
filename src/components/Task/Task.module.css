@@ -1,0 +1,93 @@
+.task {
+    width: 402px;
+    height: 166px;
+    border-radius: 14px;
+    border: 1px #A1A3AB solid;
+    position: relative;
+    padding: 13px 31px 13px 41px;
+}
+
+.taskdisc {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.optionscontainer {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 15px;
+    height: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.options {
+    border: 1px #A1A3AB solid;
+    border-radius: 100%;
+    background-color: none;
+    height: 4px;
+    width: 4px;
+}
+
+
+.taskmain {
+    display: flex;
+    gap: 10px;
+    height: 114px;
+}
+
+.tasktext {
+    width: 232px;
+    font-size: 14px;
+}
+
+.taskdesc {
+    margin-top: 10px;
+}
+
+.taskimg {
+    align-self: flex-end;
+}
+
+.tasktitle {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.taskdata {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-top: 14px;
+}
+
+.taskdata > p > span {
+    border: none;
+}
+
+.taskdata > p:nth-child(3) {
+    color: #A1A3AB;
+}
+ 
+.notstarted {
+    border: 2px #F21E1E solid;
+    color: #F21E1E;
+}
+
+.inprogress {
+    border: 2px #0225FF solid;
+    color: #0225FF;
+}
+
+.completed {
+    border: 2px #05A301 solid;
+    color: #05A301;
+}

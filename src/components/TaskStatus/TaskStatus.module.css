@@ -1,0 +1,17 @@
+.statuslist {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.text {
+    color: #FF6767;
+    font-size: 15px;
+    font-weight: 500;
+}

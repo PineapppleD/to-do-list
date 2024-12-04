@@ -1,0 +1,19 @@
+.statusdisc {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.circularbar {
+    font-weight: 600;
+}
+
+.categoryName {
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}

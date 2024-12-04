@@ -1,0 +1,98 @@
+.dashboard {
+    display: flex;
+    flex-grow: 1;
+    width: 958px;
+    height: 761px;
+    border: #A1A3AB 1px solid;
+    box-shadow: 0 0 4px #A1A3AB;
+    padding: 22px 26px;
+}
+
+.header,
+.todologo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todologo {
+    width: 86px;
+    gap: 3px;
+}
+
+.todoHeading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FF6767;
+}
+
+.date {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-top: 10px;
+}
+
+.date > p:nth-child(2) {
+    color: #A1A3AB;
+}
+
+.addTodoBtn {
+    display: flex;
+    background: none;
+    border: none;
+    gap: 5px;
+    cursor: pointer;
+    transition: all ease-in-out 0.4s;
+    padding: 5px 10px;
+    border-radius: 8px; 
+    color: #A1A3AB;
+}
+
+.addTodoBtn:hover {
+    background-color: #ff676739;
+    color: #fff;
+}
+
+.todofortoday {
+    margin-top: 15.33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.line {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #A1A3AB;
+    margin: 36px 0;
+}
+
+.secondcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    margin-left: 17px;
+}
+
+.completedtasksheader {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    color: #FF6767;
+    font-weight: 500;
+    margin-top: 23px;
+    margin-left: 23px;
+}
+.completedtasks {
+    margin: 0 auto;
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+}
