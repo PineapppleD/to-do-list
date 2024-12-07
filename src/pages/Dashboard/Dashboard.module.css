@@ -1,10 +1,12 @@
 .dashboard {
     display: flex;
+    width: 958px;
+    flex-direction: column;
+    
 }
 
 .main {
     display: flex;
-    width: 66.53%;
     margin-top: 60px;
     flex-direction: column;
     align-items: center;

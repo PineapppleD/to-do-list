@@ -7,11 +7,8 @@ import DashboardComponent from '../../components/DashboardComponent/DashboardCom
 export default function Dashboard() {
   return (
     <div className={styles.dashboard}>
-        <Sidebar />
-        <main className={styles.main}>
             <Welcome />
             <DashboardComponent />
-        </main>
     </div>
   )
 }

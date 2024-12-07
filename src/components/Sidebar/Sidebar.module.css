@@ -2,12 +2,12 @@
     height: 90%;
     width: 22.92%;
     margin-top: 10px;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .sidebarelements {
     background-color: #FF6767;
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
     top: -90px;
     z-index: 0;
