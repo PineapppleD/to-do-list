@@ -1,5 +1,5 @@
 import React from "react";
-// import styles from "TaskList.module.css";
+import styles from "./TaskList.module.css";
 import Task from '../Task/Task';
 
 const tasks = [
@@ -70,9 +70,9 @@ const tasks = [
 ];
 
 export default function TaskList() {
-  return <ul>
+  return <ul className={styles.tasklist}>
     {
-      tasks.map((task, index) => <Task key={index} name={task.name} description={task.description} priority={task.priority} status={task.status} createdAt={task.createdAt}/>)
+      tasks.slice(0, 2).map((task, index) => <Task key={index} name={task.name} description={task.description} priority={task.priority} status={task.status} createdAt={task.createdAt}/>)
     }
   </ul>;
 }

@@ -20,3 +20,8 @@
     justify-content: center;
     align-items: center;
 }
+
+.orange {
+    padding: 9px 42px;
+    background-color: #F24E1E;
+}
