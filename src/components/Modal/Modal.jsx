@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./AddTaskModal.module.css";
+import styles from "./Modal.module.css";
 import Input from "../Input/Input";
 import PriorityList from "./PriorityList";
 import Title from "./Title";
@@ -7,7 +7,7 @@ import DescriptionInput from "./DescriptionInput";
 import UploadImage from "./UploadImage";
 import Button from "../Button/Button";
 
-export default function AddTaskModal() {
+export default function Modal({ mode }) {
   const [textValue, setTextValue] = useState(null);
   const [dateValue, setDateValue] = useState(null);
   const [image, setImage] = useState("");
@@ -24,7 +24,8 @@ export default function AddTaskModal() {
     <div className={styles.modal}>
       <div className={styles.header}>
         <h1 className={styles.heading}>
-          Add New Task
+          {mode === "add" && "Add New Task"}
+          {mode === "edit" && "Edit Task"}
           <span></span>
         </h1>
         <button className={styles.button}>Go Back</button>
@@ -51,7 +52,7 @@ export default function AddTaskModal() {
           </div>
         </div>
       </div>
-      <Button orange type={"text"} data={"Done"} />
+      <Button orange={true} type={"text"} data={"Done"} />
     </div>
   );
 }

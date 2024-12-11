@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "./Title";
-import styles from "./AddTaskModal.module.css";
+import styles from "./Modal.module.css";
 import UploadIcon from "./UploadIcon";
 
 export default function UploadImage({ image, setImage }) {

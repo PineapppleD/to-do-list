@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./AddTaskModal.module.css";
+import styles from "./Modal.module.css";
 import Title from './Title'
 
 export default function PriorityList() {

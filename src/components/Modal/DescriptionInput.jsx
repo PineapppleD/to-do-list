@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Title from "./Title";
-import styles from './AddTaskModal.module.css';
+import styles from './Modal.module.css';
 
 export default function DescriptionInput() {
   const [value, setValue] = useState(null);
